@@ -24,7 +24,6 @@ const nextConfig = {
   swcMinify: true,
   output: 'standalone',
   trailingSlash: true,
-  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://raja-palace-eight.vercel.app' : '',
 };
 
-module.exports = nextConfig; 
+module.exports = nextConfig;
